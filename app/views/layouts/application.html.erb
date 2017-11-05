@@ -9,6 +9,13 @@
   </head>
 
   <body>
+    <ul class="navbar">
+      <li><%= link_to "Home", root_path %></li>
+      <li><%= link_to "News", news_path%></li>
+      <li><%= link_to "Goals", goals_path %></li>
+      <li><%= link_to "Products", products_path %></li>
+      <li><%= link_to "Content", content_path %></li>
+    </ul>
     <%= yield %>
   </body>
 </html>
