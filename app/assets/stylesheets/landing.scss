@@ -5,9 +5,16 @@
 //navigation bar
 .navbar {
   display: flex;
+  background-color: rgba(1,1,1,.1);
+  margin: 0;
+  height: 35px;
   li {
-    width: 15%;
+    width: 10%;
     list-style: none;
     text-align: center
+  }
+  a {
+    font-size: 1.1em;
+    text-decoration: none;
   }
 }
